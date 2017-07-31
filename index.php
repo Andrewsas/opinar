@@ -56,7 +56,6 @@
 						<ul>
 							<li><a href="#">Recentes</a></li>
 							<li><a href="#">+ Avaliados</a></li>
-							<li><a href="#">Maior Nota</a></li>
 						</ul>
 					</nav>
 			</header>
