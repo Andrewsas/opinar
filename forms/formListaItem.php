@@ -78,8 +78,8 @@
 			<a href="formCadastroItem.php" style="float:right;"><button data-icon="plus" data-iconpos="notext">Adicionar</button></a>
 			
 			<?php
-				require_once("C:/xampp/htdocs/ProjetoFinal/classes/Item.php");
-				require_once("C:/xampp/htdocs/ProjetoFinal/dao/ItemDao.php");
+				require_once("../classes/Item.php");
+				require_once("../dao/ItemDao.php");
 
 				$item = new  Item();
 

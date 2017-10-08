@@ -1,5 +1,5 @@
 <?php
-require_once("C:/xampp/htdocs/ProjetoFinal/bd/conexaobd.php");
+require_once("../bd/conexaobd.php");
 
 class AvaliaComentarioDAO{
 	public $conn;

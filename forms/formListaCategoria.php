@@ -60,7 +60,7 @@
 			<aside data-role="aside">
 				<div id="nav-panel" data-role="panel" data-theme="b" data-display="push" data-position-fixed="true">
 			        <ul data-role="listview">
-			            <li><a href="C:/xampp/htdocs/ProjetoFinal/forms/formLogin.php">Login</a></li>
+			            <li><a href="../forms/formLogin.php">Login</a></li>
 			            <br>
 			            <br>
 			            <br>
@@ -78,8 +78,8 @@
 			<a href="formCadastroCategoria.php" style="float:right;"><button data-icon="plus" data-iconpos="notext">Adicionar</button></a>
 			
 			<?php
-				require_once("C:/xampp/htdocs/ProjetoFinal/classes/Categoria.php");
-				require_once("C:/xampp/htdocs/ProjetoFinal/dao/CategoriaDao.php");
+				require_once("../classes/Categoria.php");
+				require_once("../dao/CategoriaDao.php");
 
 				$categoria = new  Categoria();
 

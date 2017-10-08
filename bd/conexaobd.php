@@ -3,10 +3,10 @@
 
 		static function conectar(){
 
-			$host = "177.91.232.234";
+			$host = "localhost";
 			$dbname = "opinar";
 			$user = "root";
-			$password = "ifam2016";
+			$password = "1nf0rm4t1c4";
 			
 			try{
 				$conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);

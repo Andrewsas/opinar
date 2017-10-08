@@ -85,8 +85,8 @@
 			            <br>
 			            <a href="forms/formCadastroItem.php"><button data-icon="plus" data-iconpos="top">Adicionar Item</button></a>
 			            <?php 
-							require_once("C:/xampp/htdocs/ProjetoFinal/classes/Categoria.php");
-							require_once("C:/xampp/htdocs/ProjetoFinal/dao/CategoriaDao.php");
+							require_once("classes/Categoria.php");
+							require_once("dao/CategoriaDao2.php");
 
 							$categoria = new  Categoria();
 
@@ -112,8 +112,8 @@
 
 				<?php 
 					
-					require_once("C:/xampp/htdocs/ProjetoFinal/classes/Item.php");
-					require_once("C:/xampp/htdocs/ProjetoFinal/dao/ItemDao.php");
+					require_once("classes/Item.php");
+					require_once("dao/ItemDao2.php");
 
 					$item = new  Item();
 

@@ -1,5 +1,5 @@
 <?php
-require_once("../bd/conexaobd.php");
+require_once("bd/conexaobd.php");
 
 class ItemDao{
 	public $conn;
